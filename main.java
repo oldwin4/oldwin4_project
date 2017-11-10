@@ -9,7 +9,7 @@ public class Main {
         ProductsDao dao = new ProductsDaoCsvImplementation();
         System.out.println(dao.getprice("яблоки"));
 
-        //Product product = new Product("хлеб", 40, "Хлебзавод1");
+        //Product product = new Product("молоко", 40, "молочный комбинат1");
         //dao.add(product);
 
         System.out.println(dao.exists("печенье"));
