@@ -4,14 +4,14 @@ import java.io.*;
 
 public class Main {
 
-    public static void main(String[] args) throws IOException, ProductNotFoundException {
+    public static void main(String[] args) throws IOException, ProductmilkNotFoundException {
         File file = new File("products.csv");
-        Productsdao dao = new ProductsDaoCsvImplementation();
-        System.out.println(dao.getprice("яблоки"));
+        Productsdao doa = new ProductsmilkDaoCsvImplementation();
+        System.out.println(doa.getprice("яблоки"));
 
-        //Product product = new Product("молоко", 40, "молочный комбинат1");
-        //dao.add(product);
+        //Product product = new Product("молоко", 50, "молочный комбинат1");
+        //doa.add(product);
 
-        System.out.println(dao.exists("молоко" )
+        System.out.println(doa.exists("молоко" )
     }
 }
