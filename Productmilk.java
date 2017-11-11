@@ -11,7 +11,7 @@ public class Productmilk {
         this.supplierName = supplierName;
     }
 
-    public Product(String name, int price) {
+    public Productmilk(String name, int price) {
         this.name = name;
         this.price = price;
     }
