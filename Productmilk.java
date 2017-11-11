@@ -1,11 +1,11 @@
 package com.company;
 
-public class Product {
+public class Productmilk {
     String name;
     int price;
     String supplierName;
 
-    public Product(String name, int price, String supplierName) {
+    public Productmilk(String name, int price, String supplierName) {
         this.name = name;
         this.price = price;
         this.supplierName = supplierName;
