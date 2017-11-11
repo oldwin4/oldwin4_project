@@ -5,7 +5,7 @@ import java.io.IOException;
 public interface ProductsmilkDoa {
     boolean exists(String product) throws IOException;
 
-    void add(Product product) throws IOException;
+    void add(Productmilk product) throws IOException;
 
     int getprice(String productName) throws IOException;
 
