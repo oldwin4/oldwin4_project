@@ -2,7 +2,7 @@ package com.company;
 
 import java.io.IOException;
 
-public interface ProductsDoa {
+public interface ProductsmilkDoa {
     boolean exists(String product) throws IOException;
 
     void add(Product product) throws IOException;
